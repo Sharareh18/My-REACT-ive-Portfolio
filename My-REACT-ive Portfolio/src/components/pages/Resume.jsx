@@ -1,5 +1,5 @@
 // Import necessary React and Bootstrap components
-import React from 'react';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import resume from '../pages/pageAssets/resume.pdf';
 
@@ -9,12 +9,12 @@ function Resume() {
     <div className="container">
       <h2>Resume</h2>
       <div className="button-resume">
-				 <a href={resume} download>
-					<p>Download Resume</p>
-				</a>
-			</div>
+        <a href={resume} download>
+          <p>Download Resume</p>
+        </a>
+      </div>
       <br></br>
-    
+
 
 
       <section>
@@ -38,11 +38,11 @@ function Resume() {
         </div>
       </section>
       <br></br>
-      
+
       <section>
         <h4>Work Experience</h4>
         <div>
-        <p><i>U.S. Gov - Analyst</i></p>
+          <p><i>U.S. Gov - Analyst</i></p>
           <p>Year: 2004 - 2006</p>
           <br></br>
           <p><i>Northrop Grumman - Analyst</i></p>
@@ -50,11 +50,11 @@ function Resume() {
           <br></br>
           <p><i>Verite Group Inc - Analyst</i></p>
           <p>Year: 2013 - present</p>
-         <br></br>
+          <br></br>
         </div>
       </section>
 
-   
+
       <section>
         <h4>Skills</h4>
         <ul>
@@ -65,7 +65,7 @@ function Resume() {
         </ul>
       </section>
 
-     
+
 
     </div>
   );
