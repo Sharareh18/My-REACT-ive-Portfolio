@@ -60,7 +60,7 @@ function Resume() {
         <ul>
           <li>Languages: English, Farsi, Dari, Arabic, German, French</li>
           <li>Certificates: Tactical Weapons, Combat & Warzone <br></br>Google Analytics & Digital Marketing<br></br>SEO by Yoast, Simplilearn, Semrush, Hubspot</li>
-          <li>Proficienies:  Adobe After Effects, Illustrator, Photoshop, Excell</li>
+          <li>Proficiencies:  Adobe After Effects, Illustrator, Photoshop, Excell</li>
           <li>Technical: HTML, CSS, JavaScript, jQuery, Bootstrap, React, MySql, MongoDB, GraphQl</li>
         </ul>
       </section>
