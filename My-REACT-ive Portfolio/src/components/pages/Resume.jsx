@@ -1,58 +1,71 @@
 // Import necessary React and Bootstrap components
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import resume from '../pages/pageAssets/resume.pdf';
 
 // Main Resume component
 function Resume() {
   return (
-    <div className="container mt-5">
-      <h1>Resume</h1>
+    <div className="container">
+      <h2>Resume</h2>
+      <div className="button-resume">
+				 <a href={resume} download>
+					<p>Download Resume</p>
+				</a>
+			</div>
+      <br></br>
+    
 
 
       <section>
-        <h2>Education</h2>
+        <h4>Education</h4>
         <div>
-          <h4>Towson University</h4>
-          <p>Degree: BS in Finance minor: Economics</p>
-          <p>Year: 1998- 2002</p>
+          <p><i>Towson University</i></p>
+          <p>BS in Finance minor in Economics</p>
+          <p>1998- 2002</p>
         </div>
+        <br></br>
         <div>
-          <h4>University of Maryland Baltimore/College Park</h4>
-          <p>Degree: MS in Political Science: Middle Eastern Gov & Policy</p>
-          <p>Year: 2003- 2006</p>
+          <p><i>University of Maryland Baltimore/College Park</i></p>
+          <p>MS in Political Science: Middle Eastern Gov & Policy</p>
+          <p>2003- 2006</p>
         </div>
+        <br></br>
         <div>
-          <h4>Concord University</h4>
-          <p>Degree: JD of law - Concentration: Intellectual Property</p>
-          <p>Year: 2007- 2011</p>
+          <p><i>Concord University & Chapman Law</i></p>
+          <p>JD of law - Concentration: Intellectual Property</p>
+          <p>2007- ongoing</p>
         </div>
       </section>
-
+      <br></br>
       
       <section>
-        <h2>Work Experience</h2>
+        <h4>Work Experience</h4>
         <div>
-          <h4>Northrop Grumman</h4>
-          <p>Position: Analyst</p>
-          <p>Year: 2006 - Present</p>
-          <ul>
-            <li>Responded to all customer needs.</li>
-          </ul>
+        <p><i>U.S. Gov - Analyst</i></p>
+          <p>Year: 2004 - 2006</p>
+          <br></br>
+          <p><i>Northrop Grumman - Analyst</i></p>
+          <p>Year: 2006 - 2013</p>
+          <br></br>
+          <p><i>Verite Group Inc - Analyst</i></p>
+          <p>Year: 2013 - present</p>
+         <br></br>
         </div>
       </section>
 
    
       <section>
-        <h2>Skills</h2>
+        <h4>Skills</h4>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Languages: English, Farsi, Dari, Arabic, German, French</li>
+          <li>Certificates: Tactical Weapons, Combat & Warzone <br></br>Google Analytics & Digital Marketing<br></br>SEO by Yoast, Simplilearn, Semrush, Hubspot</li>
+          <li>Proficienies:  Adobe After Effects, Illustrator, Photoshop, Excell</li>
+          <li>Technical: HTML, CSS, JavaScript, jQuery, Bootstrap, React, MySql, MongoDB, GraphQl</li>
         </ul>
       </section>
 
-      
+     
 
     </div>
   );

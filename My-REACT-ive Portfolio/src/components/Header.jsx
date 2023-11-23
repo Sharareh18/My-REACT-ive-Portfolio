@@ -1,17 +1,18 @@
-import PropTypes from 'prop-types';
-import Nav from './Nav';
+// import PropTypes from 'prop-types';
+
 
 export default function Header({ currentPage, setCurrentPage }) {
   return (
-    <header className="flex-row px-1">
-      <div>
+    <header className="container">
+        
+      {/* <div>
         <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      </div>
+      </div> */}
     </header>
   );
 }
 
-Header.propTypes = {
-  currentPage: PropTypes.string.isRequired,
-  setCurrentPage: PropTypes.func.isRequired,
-};
+// Header.propTypes = {
+//   currentPage: PropTypes.string.isRequired,
+//   setCurrentPage: PropTypes.func.isRequired,
+// };
