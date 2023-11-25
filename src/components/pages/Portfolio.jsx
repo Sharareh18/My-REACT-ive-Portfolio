@@ -1,12 +1,12 @@
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import image1 from './pageAssets/shervsite.png';
-import image2 from './pageAssets/blindartist.png';
-import image3 from './pageAssets/Bug-crusher.png';
-import image4 from './pageAssets/bibledrips.png';
-import image5 from './pageAssets/Schedly-1.png';
-import image6 from './pageAssets/Notex.png';
+import image1 from '../../assets/pageAssets/shervsite.png';
+import image2 from '../../assets/pageAssets/blindartist.png';
+import image3 from '../../assets/pageAssets/Bug-crusher.png';
+import image4 from '../../assets/pageAssets/bibledrips.png';
+import image5 from '../../assets/pageAssets/Schedly-1.png';
+import image6 from '../../assets/pageAssets/Notex.png';
 
 
 
