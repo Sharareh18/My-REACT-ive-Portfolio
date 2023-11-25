@@ -1,4 +1,4 @@
-import image from "../../assets/pageAssets/IMG_3542.png";
+import image from "../../../public/pageAssets/IMG_3542.png";
 
 
         export default function Home() {
