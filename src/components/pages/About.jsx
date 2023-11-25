@@ -1,4 +1,4 @@
-import image from "../../../public/pageAssets/IMG_3542.png";
+import imgUrl from "../../../public/pageAssets/IMG_3542.png";
 
 
         export default function Home() {
@@ -8,7 +8,7 @@ import image from "../../../public/pageAssets/IMG_3542.png";
                     <div className="img-hero">
                         <div className="hero-cta">
                             <img
-                                src={image} className="img-fluid" alt="hero" />
+                                src={imgUrl} className="img-fluid" alt="hero" />
 
                         </div>
                     </div>
