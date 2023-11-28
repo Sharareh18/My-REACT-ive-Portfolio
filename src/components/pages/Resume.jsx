@@ -1,7 +1,7 @@
 // Import necessary React and Bootstrap components
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-import resume from '../pages/pageAssets/resume.pdf';
+import resume from './pageAssets/resume.pdf';
 
 // Main Resume component
 function Resume() {

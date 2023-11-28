@@ -1,7 +1,8 @@
-function Nav ({currentPage, handlePageChange,}) {
-    
-    return (
-      <div container>
+import PropTypes from 'prop-types';
+
+function Nav({ currentPage, handlePageChange }) {
+  return (
+    <div className="container">
       <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
@@ -12,7 +13,7 @@ function Nav ({currentPage, handlePageChange,}) {
             About
           </a>
         </li>
-      
+
         <li className="nav-item">
           <a
             href="#portfolio"
@@ -41,9 +42,15 @@ function Nav ({currentPage, handlePageChange,}) {
           </a>
         </li>
       </ul>
-      </div>
-    );
-  }
-  
-  export default Nav;
-  
+    </div>
+  );
+}
+
+Nav.propTypes = {
+  currentPage: PropTypes.string.isRequired,
+  handlePageChange: PropTypes.func.isRequired,
+};
+
+export default Nav;
+    
+    
