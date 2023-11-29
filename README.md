@@ -20,7 +20,9 @@
   ## Usage
   
 Link:
+https://main--singular-travesseiro-6591b9.netlify.app/
 
+![screenshot of portfolio](portfolio.png)
 
 
   ## License
